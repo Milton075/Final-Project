@@ -138,7 +138,15 @@ margin: 0 auto;
 		justify-content: space-between;
 	}
 
-	header__container {
+	.header__container {
 			padding: 96px 0; 
 		}
 
+	.header__description {
+			width: 50%;
+			display: flex;
+	}
+
+ 	.header__img {
+	width: 100%;
+}

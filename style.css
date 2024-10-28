@@ -17,6 +17,10 @@ width: 100%;
 overflow-x: hidden;
 }
 
+img {
+	width: 100%;
+}
+
 .purple {
 	color:#6415ff;
 }
@@ -332,11 +336,12 @@ QUALITY
 
 .quality__description {
 	max-width: 576px;
-	margin-right: 64px;
+	margin-right: 96px;
 	
 }
 
 .quality__title {
+	margin-top: 96px;
 	font-size: 16px;
 }
 
@@ -347,18 +352,17 @@ QUALITY
 }
 
 .quality__description {
-	width: 50%;
+	width: 100%;
 }
 
 .quality__img--wrapper {
 margin: 0 56px;
 position: relative;
-z-index: 2;
 }
 
 .quality__img {
 	border: 1px solid rgb(229, 231, 235);
-	width: 60%;
+	width: 90%;
  max-width: auto;
  z-index: 1;
 }

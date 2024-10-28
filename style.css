@@ -32,6 +32,7 @@ section {
 h1 {
 	font-size: 48px;
 	text-align: center;
+	margin-top: 40px;
 }
 
 p {
@@ -271,6 +272,7 @@ text-align: center;
 color: #6415ff;
 font-size: 16px;
 letter-spacing: 2.0px;
+margin-top: 96px;
 }
 
 .features__subtitle {

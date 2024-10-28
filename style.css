@@ -51,6 +51,20 @@ a:hover {
 	border-bottom: solid purple;
 }
 
+button {
+	cursor: pointer;
+}
+
+.btn {
+	margin-top: 32px;
+	background-color: #6415ff;
+	border-radius: 500px;
+	font-size: 14px;
+	color: #fff;
+	padding: 16px 32px;
+	font-weight: 700;
+}
+
 nav {
 	height: 80px;
 	display: flex;
@@ -190,10 +204,9 @@ margin: 0 auto;
 	font-size: 16px;
 	font-weight: 700;
 	transition: all 300ms ease;
-	cursor: pointer;
 }
 
-
+.btn:hover,
 .header__email--btn:hover {
 	background-color:#243e63;
 	color: #fff;
@@ -314,18 +327,26 @@ QUALITY
 }
 
 .quality__title {
-	padding: 24px;
+	font-size: 16px;
 }
 
 .quality__subtitle {
-	padding: 24px;
+	padding: 16px;
+	font-size: 48px;
+	font-weight: bold;
 }
 
 .quality__description {
 	width: 50%;
 }
 
+.quality__img--wrapper {
+border: 1px solid rgb(229, 231, 235);
+margin: 0 56px;
+position: relative;
+}
+
 .quality__img {
- width: 80%;
- border: 1px solid
+	width: 60%;
+ max-width: auto
 }

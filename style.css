@@ -344,9 +344,23 @@ QUALITY
 border: 1px solid rgb(229, 231, 235);
 margin: 0 56px;
 position: relative;
+z-index: 2;
 }
 
 .quality__img {
 	width: 60%;
- max-width: auto
+ max-width: auto;
+ z-index:1;
+}
+
+.quality__grid {
+	transform: translateX(50%) translateY(50%) scaleX(1) scaleY(1);
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	fill: rgb(100,21,255);
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+
 }

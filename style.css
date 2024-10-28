@@ -26,13 +26,13 @@ section {
 }
 
 h1 {
-	font-size: 36px;
+	font-size: 48px;
 	text-align: center;
 }
 
 p {
 	line-height: 1.5;
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 }
 
@@ -129,13 +129,12 @@ margin: 0 auto;
 	*/
 
 	header {
-		height: 100vh;
+		position: relative;
 	}
 
 	header .row {
 		display: flex;
-		align-items: center;
-		justify-content: space-between;
+		align-items: flex-end;
 	}
 
 	.header__container {
@@ -143,10 +142,51 @@ margin: 0 auto;
 		}
 
 	.header__description {
-			width: 50%;
-			display: flex;
+			width: 45%;
+	}
+
+	.header__description--para {
+		margin: 32px;
 	}
 
  	.header__img {
 	width: 100%;
+}
+
+.header__img--wrapper {
+	width: calc(100% -  45%);
+}
+
+.header__email {
+	width: 100%;
+	max-width: 500px;
+	height: 70px;
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.header__email--input {
+	width: 100%;
+	border-radius: 500px;
+	border: 2px solid rgb(229, 231, 235);
+	padding: 16px 96px 16px 16px ;
+	font-size: 16px;
+	font-weight: 500;
+	position: absolute;
+	z-index: 1;
+}
+
+.header__email--btn {
+	z-index: 2;
+	margin: 8px;
+	height: 70%;
+	border-radius: 500px;
+	border: none;
+	width: 160px;
+	background-color: #6415ff;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 500;
 }

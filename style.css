@@ -340,6 +340,7 @@ QUALITY
 	
 }
 
+.steps__title,
 .quality__title {
 	margin-top: 96px;
 	font-size: 16px;
@@ -373,7 +374,167 @@ position: relative;
 	height: 80px;
 	fill: rgb(100,21,255);
 	z-index: -1;
-	top: 0;
-	bottom: 0;
+	bottom: -40px;
 	right: 0;
+
+	
 }
+
+/*
+
+STEPS
+
+*/
+
+
+.steps__subtitle {
+	margin-top: 40px;
+	font-size: 48px;
+}
+
+.step__subtitle {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#steps .row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+
+.steps__img--wrapper {
+	display: flex;
+	position: relative;
+}
+
+.steps__description,
+.steps__img--wrapper {
+	width: 50%;
+}
+
+.steps__description {
+	padding: 32px 0px;
+	padding-left: 64px;
+}
+
+.step__description {
+	display: flex;
+	flex-direction: column;
+	margin-left: 24px;
+	max-width: 320px;
+}
+
+.steps__number {
+	font-size: 36px;
+	font-weight: 600;
+	color: #cbd5e0;
+}
+
+.steps__list {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 24px;
+}
+
+.steps__para {
+	margin-top: 16px;
+}
+
+.steps__grid {
+	position: absolute;
+	opacity: 0.15;
+	right: 0;
+	bottom: -30px;
+	left: 45%;
+	width: 80px;
+	height: 80px;
+	z-index: -1;
+}
+
+/* 
+
+VALUES
+
+*/
+
+#values .row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.value__img--wrap,
+.value__img--wrapper {
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 36px;
+		height: 36px;
+	}
+
+	.value:nth-child(1),
+	.value__img--wrap {
+
+		background-color: #9ae6b4;
+		}
+
+.value:nth-child(2),
+.value__img--wrapper {
+background-color: #feb2b2;
+ }
+
+.value__title {
+	margin-left: 16px;
+	font-size: 24px;
+}
+	
+.value__para {
+	margin-top: 16px;
+	line-height: 1.6;
+	margin-left: 16px;
+}
+	.value__img {
+		width: 50%;
+	}
+
+.section__tag {
+	text-align: center;	
+	color: #6415ff;
+	font-size: 16px;
+	letter-spacing: 2.0px;
+	margin-top: 96px;
+	}
+	
+	.section__title {
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 32px;
+	font-size: 36px;
+	}
+	
+	.section__para {
+	margin-top: 36px;
+	line-height: 1.6;
+	}
+
+	.values__list {
+		display: flex;
+	}
+
+	.value__title--wrap {
+		display: flex;
+		align-items: center;
+		margin-top: 16px;
+	}
+
+	.value__text {
+		width: calc(100%/2);
+		}
+		
+
+	.values__description {
+		padding: 32px 64px 32px 0;
+		width: 50%;
+	}

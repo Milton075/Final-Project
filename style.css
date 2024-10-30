@@ -5,9 +5,10 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	color: #243e63;
+	
 
 }
+
 .container {
 	padding: 96px 0;
 }
@@ -538,3 +539,83 @@ background-color: #feb2b2;
 		padding: 32px 64px 32px 0;
 		width: 50%;
 	}
+
+ /*
+
+ PRICING
+
+ */
+
+ #pricing .row {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ }
+
+ #pricing .section__para {
+	max-width: 576px;
+	align-items: center;
+ }
+
+ .plan {
+	border: 1px solid;
+	
+ }
+
+ .section__plans {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	position: relative;
+ }
+
+ .plan__stripe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 8px;
+ }
+
+ .plans__top,
+ .plans__middle,
+ .plans__bottom {
+	padding: 32px;
+	text-align: center;
+ }
+
+ .plan__name {
+	font-size: 20px;
+	font-weight: bold;
+ }
+
+ .plan__price {
+	padding: 16px;
+	font-weight: bold;
+	font-size: 36px;
+ }
+
+ .plan__duration {
+	color: #a0aec0;
+	font-size: 16px;
+	letter-spacing: 0.1em;
+ }
+
+ .plan:nth-child(1),
+ .plan__stripe,
+ .plan__button {
+	color: #f7fafc;
+background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 
+100%);
+ }
+
+ .plan__button {
+	border-radius: 500px;
+	border: none;
+	width: 100%;
+	line-height: 1.5;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	transition: all 300ms;
+ }

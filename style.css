@@ -725,6 +725,17 @@ line-height: 1.5;
 	width: 60%;
  }
 
+ plans__blob {
+z-index: -10;
+position: absolute;
+left: 0;
+bottom: 0;
+transform: translateX(-50%) translateY(50%) scaleX(1) scaleY(1);
+height: 256px;
+width: 256px;
+opacity: 0.25;
+}	
+
  /*
 
  TESTIMONIAL
@@ -1013,6 +1024,51 @@ opacity: 0.5;
 		background: rgb(116, 44, 255);
 		}
 		
+.footer__logo--text {
+			font-size: 20px;
+			color: #f7fafc;
+			font-weight: 900;
+			margin-left: 8px;
+			letter-spacing: 0.05em;
+			}
+			
+.footer__logo--img {
+	height: 32px;
+	width: 32px;
+}
 
+.footer__copyright {
+	color: #cbd5e0;
+	font-weight: 500;
+	}
+
+.footer__socials {
+	display: flex;
+	align-items: center;
+	margin-left: -16px;
+}
+
+.footer__social--link {
+		margin-left: 16px;
+		padding: 8px;
+		background: #f7fafc;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border-radius: 50%;
+		z-index: 2;
+		cursor: pointer;
+		transition: all 300ms;
+}
 		
-		
+
+.footer__social--link svg {
+		height: 16px;
+		width: 16px;
+	}
+
+.footer__bottom {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}

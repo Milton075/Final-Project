@@ -76,6 +76,7 @@ nav a:hover {
 
 .footer__column--link:hover {
 	border-bottom: solid white;
+	margin-bottom: -3px;
 	
 }
 

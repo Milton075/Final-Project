@@ -76,6 +76,7 @@ nav a:hover {
 
 .footer__column--link:hover {
 	border-bottom: solid white;
+	
 }
 
 button {
@@ -476,6 +477,7 @@ VALUES
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	text-align: center;
 }
 
 .value__img--wrap,

@@ -535,8 +535,9 @@ background-color: #feb2b2;
 	margin-left: 16px;
 	color: #718096;
 }
-	.value__img {
-		width: 50%;
+	.value__img,
+	.values__description {
+		width: 100%;
 	}
 
 .section__tag {
@@ -579,7 +580,7 @@ background-color: #feb2b2;
 
 	.values__description {
 		padding: 32px 64px 32px 0;
-		width: 50%;
+		
 	}
 
  /*

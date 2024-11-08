@@ -153,11 +153,12 @@ padding: 10px;
 }
 
 .nav__link--primary:hover {
-	color:#243e63;
+	background-color: rgba(80,17,204);
+	color: #fff;
 	transition: all 300ms ease;
-
-	
+	border: none;
 }
+
 .nav__logo--title {
 	font-size: 30px;
 	font-weight: 900;
@@ -240,7 +241,7 @@ padding: 10px;
 
 .btn:hover,
 .header__email--btn:hover {
-	background-color:#243e63;
+	background-color: rgba(80,17,204);
 	color: #fff;
 	transition: all 300ms ease;
 }
@@ -1107,6 +1108,11 @@ opacity: 0.5;
 	color: #cbd5e0;
 	font-weight: 500;
 	}
+
+.footer__social--link:hover{
+	background-color: #d9e2e7;
+	transition: all 300ms ease;
+}
 
 .footer__socials {
 	display: flex;
